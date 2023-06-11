@@ -17,7 +17,7 @@ if __name__ == "__main__":
     forcc = cv2.VideoWriter_fourcc(*'MP4V')
     savepath = "OpenCV_Fundamentals/project_2_Video_time_lapse_count/videos/recorded_video.mp4"
 
-    videoWriter = cv2.VideoWriter(savepath, forcc, int(
+    writer = cv2.VideoWriter(savepath, forcc, int(
         video_fps), (int(video_width), int(video_height)), True)
 
     # Video Processing block
@@ -39,4 +39,4 @@ if __name__ == "__main__":
             # frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             cv2.imshow("Output", frame)
             cv2.waitKey(50)
-            videoWriter.write(frame)
+            writer.write(frame)
