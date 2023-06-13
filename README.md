@@ -21,4 +21,13 @@ Idea behind this repo is to revise traditional OpenCV methods using different pr
             - Performing video manipulation on a frame by frame basis.
             - Reading a video directly from a webcam
 
-## Project 3 :
+## Project 3 : Counting number of candies on a desk :  
+        In this project we will learn the following topics : 
+            - Grey color images.
+            - Binary Images.
+            - Applying filters such as Gaussian filter.
+            - Image threshold-ing.
+            - Edge Detection.
+            - Image Counter Detection
+
+## Project 4 :  
