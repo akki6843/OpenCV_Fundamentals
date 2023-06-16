@@ -34,4 +34,11 @@ Idea behind this repo is to revise traditional OpenCV methods using different pr
     This is a extension of Project 3 where we learned, how to process a image.
     In this project the same Idea has been repurposed to find candies in the real time video.
 
-## Project 5 : 
+## Project 5 : Finding the Queen in Carrom Board :  
+    This project will teach us the following topics : 
+        - Revision of contours 
+        - Color Threshold-ing 
+        - LAB Color Schema
+        - InRange function for binary images
+
+## Project 6 : 
