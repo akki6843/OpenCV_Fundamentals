@@ -41,4 +41,14 @@ Idea behind this repo is to revise traditional OpenCV methods using different pr
         - LAB Color Schema
         - InRange function for binary images
 
-## Project 6 : 
+## Project 6 : Are you wearing company T-Shirt :
+    Topics covered in this lessons are :
+        - Color Schemes 
+        - Color Thresholding using Inrange and masks 
+        - Otsu Thresholding method
+        - Morphological Opreations (EROSION and DILATION)
+        - Contour Analysis 
+        - Histographs 
+
+## Project 7 : Real World Problem :
+
