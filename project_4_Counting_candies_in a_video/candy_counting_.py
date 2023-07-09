@@ -46,8 +46,7 @@ def draw_contours(img, cnt):
 
 if __name__ == "__main__":
     # Reading and displaying input Image
-    vid = cv2.VideoCapture(
-        "OpenCV_Fundamentals/project_4_Counting_candies_in a_video/images/candies_on_table.mov")
+    vid = cv2.VideoCapture("./images/candies_on_table.mov")
 
     while True:
         grabbed, frame = vid.read()

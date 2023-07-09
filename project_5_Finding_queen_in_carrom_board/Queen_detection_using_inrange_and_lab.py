@@ -3,8 +3,7 @@ import cv2
 # Contours can become inputs for calculating rectangles and circles to draw onm image as BBOXs
 
 if __name__ == "__main__":
-    image = cv2.imread(
-        "OpenCV_Fundamentals/project_5_Finding_queen_in_carrom_board/images/carrom_board.jpg")
+    image = cv2.imread("./images/carrom_board.jpg")
     cv2.imshow("Input", image)
     cv2.waitKey(-1)
 
