@@ -31,8 +31,19 @@ if __name__ == "__main__":
 
     # Getting contours
 
-    cnts, hiery = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    cv2.drawContours(image, cnts, -1, (0, 0, 255), 5)
+    cnts, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    cv2.drawContours(gray, cnts, -1, (0, 0, 255), 5)
     cv2.imshow("Contoured Image", image)
     cv2.waitKey(-1)
 
+    # Creating Mask from the contour
+
+    mask = np.zeros((image.shape[0], image.shape[1]), dtype='uint8')
+    cv2.drawContours(mask, cnts, -1, (255, 255, 255), -1)
+    cv2.imshow("Mask From Contours", mask)
+    cv2.waitKey(-1)
+
+    # Extracting T-shirt from image using mask
+    tShirt_image = cv2.bitwise_and(image, image, mask=mask)
+    cv2.imshow("Extracted T-Shirt", tShirt_image)
+    cv2.waitKey(-1)
