@@ -50,5 +50,17 @@ Idea behind this repo is to revise traditional OpenCV methods using different pr
         - Contour Analysis 
         - Histographs 
 
-## Project 7 : Real World Problem :
+## Project 7 : Counting eggs in a cart :
+    Things that are required in this project and tools that are going to be used :
+        - All the things, covewr so far
+        - Morphological operations
+        - Contours and areas
+        - Region of interest
+        - shapes and masks
 
+## Finally the course is complete: 
+    Important things learned regarding opencv are listed above. 
+    
+## Note :  this will be a final commit and further work on this repo is not yet planned.
+
+Stay Safe Happy Learning.
